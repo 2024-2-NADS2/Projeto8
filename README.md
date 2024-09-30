@@ -4,15 +4,15 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Site de doações estilo Hub
 
-## Nome do Grupo
+## DoaTech
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/ana-clara-torres-musso-/">Ana Clara </a>, <a href="https://www.linkedin.com/in/matheus-santos-morais/">Matheus Santos</a>, <a href="https://www.linkedin.com/in/rodrigo-cruz-b3885116a/">Rodrigo Cruz Cruz</a>, <a href="https://www.linkedin.com/in/vinicius-kingo-1b769030a/">Vinicius Kingo</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 
-## Descrição
+## Home do projeto
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
@@ -20,12 +20,11 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+
+
+O nosso projeto foca em desenvolver um site de doações, com ONGs voltadas a ajudarem os animais, pessoas com fome e moradores de rua.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
@@ -59,27 +58,7 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>HTML:</b>
-
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
@@ -101,18 +80,16 @@ Coloque código do prompt de comnando se for necessário
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.2.1 - 30/09/2024
+    * MUDANÇA: Atualização do planejamento para a entrega dia 02/09/2024.
+* 0.2.0 - 23/09/2024
+    * Iniciação do figma no trabalho junto com react.
+* 0.1.1 - 19/08/2024
+    * Separação de tarefas a serem executadas pelos membros do grupo.
+* 0.1.0 - 12/08/2024
+    * Realização de pesquisas sobre as ONG's que iremos trabalhar em parceria.
+* 0.0.1 - 05/08/2024
+    * Debate sobre tema do grupo e foco do mesmo.
 
 ## 📋 Licença/License
 
