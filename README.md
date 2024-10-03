@@ -15,8 +15,7 @@
 ## Home do projeto
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="https://raw.githubusercontent.com/2024-2-NADS2/Projeto8/refs/heads/main/imagens/modelo.jpg" alt="Home- DoaTech" border="0">
 </p>
 
 
@@ -33,10 +32,6 @@ O nosso projeto foca em desenvolver um site de doações, com ONGs voltadas a aj
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
@@ -47,14 +42,10 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+Há também 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
 <b>imagens</b>: Imagens do sistema
-
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
@@ -104,3 +95,9 @@ Aqui estão as referências usadas no projeto.
 3. <https://creativecommons.org/share-your-work/>
 4. <https://freesound.org/>
 5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+
+. ## 🎁 Expressões de gratidão
+
+* Esse projeto não seria possível sem a ajuda dos professores da FECAP e também de todos os integrantes do grupo!
+
+
