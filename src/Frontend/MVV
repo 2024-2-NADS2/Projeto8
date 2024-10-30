@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoaTech - Plataforma de Doações</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- PAGINA SOBRE NÓS -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"> <i class='bx bx-donate-heart'></i> DoaTech</a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#donate">Como Doar</a></li>
+                    <li><a href="#partners">Parceiros</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <a href="#" class="btn">Doe Agora</a>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="sobre-nos">
+        <div class="title-box">
+            <h1>Sobre Nós</h1>
+        </div>
+    
+        <div class="sobre-nos">
+        <div class="section-box">
+            <h2>Missão</h2>
+            <p>
+                A DoaTech tem como missão ajudar orfanatos, moradores de rua e animais abandonados, oferecendo uma
+                plataforma de fácil acesso para que pessoas possam contribuir de maneira simples e direta, ajudando aqueles
+                que mais precisam.
+            </p>
+        </div>
+        <div class="section-box">
+            <h2>Valores</h2>
+            <p>
+                Os valores da DoaTech se baseiam na empatia, clareza e impacto social. Damos prioridade à confiança em cada
+                contribuição, assegurando que todas as ONGs registradas sejam rigorosamente verificadas. A nossa plataforma
+                incentiva a inovação, simplificando o procedimento de doação de maneira prática e confiável. Acredito na
+                cooperação e no compromisso de mudar vidas.
+            </p>
+        </div>
+        <div class="section-box">
+            <h2>Visão</h2>
+            <p>
+                A visão da DoaTech é ser referência em inovação e solidariedade, conectando pessoas e organizações em um
+                ambiente de confiança e transparência. Iremos criar uma rede de apoio, onde doadores e ONGs possam
+                transformar vidas de forma eficiente e segura. Nosso propósito é por meio de contribuições, construir um
+                futuro onde cada criança em orfanato, morador de rua e animal abandonado possa receber o cuidado, apoio e
+                dignidade que merecem, gerando um efeito social positivo e duradouro.
+            </p>
+        </div>
+    </div>
+    
+
+      
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DoaTech. Todos os direitos reservados.</p>
+            <div class="socials">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+  
+    <script src="main.js"></script>
+
+</body>
+</html>
