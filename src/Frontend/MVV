@@ -81,3 +81,174 @@
 
 </body>
 </html>
+
+//css
+
+/* SobreNos.module.css */
+:root {
+  --primary-color: #c02121;
+  --secondary-color: #ff7e00;
+  --text-color: #333;
+  --bg-color: #f4f4f4;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+header {
+  background-color: var(--bg-color);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px 0; 
+  text-align: center;
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Sobre nós */
+.sobreNosContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f00000;
+}
+
+.sobreNosContent {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.sobreNosTitle {
+  font-size: 2.5em;
+  color: #fd0800;
+  margin-bottom: 20px;
+}
+
+.sobreNosSection {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+}
+
+/* Estilos para a seção "Sobre Nós" */
+.sobreNos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.sectionBox {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.sectionBox h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sectionBox
