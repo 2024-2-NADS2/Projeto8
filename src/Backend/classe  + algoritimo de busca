@@ -1,0 +1,112 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+// classes com um algoritimo de busca
+public class Doacao
+{
+
+    private int id;
+    private string doador;
+    private double valor;
+    private DateTime data;
+
+
+    public Doacao(int id, string doador, double valor, DateTime data)
+    {
+        this.id = id;
+        this.doador = doador;
+        this.valor = valor;
+        this.data = data;
+    }
+
+ 
+    public int Id
+    {
+        get { return id; }
+    }
+
+    public string Doador
+    {
+        get { return doador; }
+    }
+
+    public double Valor
+    {
+        get { return valor; }
+    }
+
+    public DateTime Data
+    {
+        get { return data; }
+    }
+}
+
+public class SistemaDoacao
+{
+
+    private List<Doacao> doacoes;
+
+
+    public SistemaDoacao()
+    {
+        doacoes = new List<Doacao>();
+    }
+
+
+    public void AdicionarDoacao(Doacao doacao)
+    {
+        doacoes.Add(doacao);
+    }
+
+
+    public List<Doacao> BuscarPorDoador(string doador)
+    {
+        return doacoes.Where(d => d.Doador.Equals(doador, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+
+
+    public List<Doacao> BuscarPorValorMinimo(double valorMinimo)
+    {
+        return doacoes.Where(d => d.Valor >= valorMinimo).ToList();
+    }
+
+
+    public void ExibirDoacoes()
+    {
+        for (int i = 0; i < doacoes.Count; i++)
+        {
+            Console.WriteLine($"ID: {doacoes[i].Id}, Doador: {doacoes[i].Doador}, Valor: {doacoes[i].Valor:C}, Data: {doacoes[i].Data:dd/MM/yyyy}");
+        }
+    }
+}
+public class Program
+{
+    public static void Main()
+    {
+        SistemaDoacao sistema = new SistemaDoacao();
+
+
+        sistema.AdicionarDoacao(new Doacao(1, "João", 100.0, DateTime.Now));
+        sistema.AdicionarDoacao(new Doacao(2, "Maria", 250.0, DateTime.Now));
+        sistema.AdicionarDoacao(new Doacao(3, "Carlos", 300.0, DateTime.Now));
+
+
+        sistema.ExibirDoacoes();
+
+
+        Console.WriteLine("\nDoações de Maria:");
+        var doacoesMaria = sistema.BuscarPorDoador("Maria");
+        for (int i = 0; i < doacoesMaria.Count; i++)
+        {
+            Console.WriteLine($"ID: {doacoesMaria[i].Id}, Doador: {doacoesMaria[i].Doador}, Valor: {doacoesMaria[i].Valor:C}");
+        }
+
+        Console.WriteLine("\nDoações com valor mínimo de 200:");
+        var doacoesValorMinimo = sistema.BuscarPorValorMinimo(200.0);
+        for (int i = 0; i < doacoesValorMinimo.Count; i++)
+        {
+            Console.WriteLine($"ID: {doacoesValorMinimo[i].Id}, Doador: {doacoesValorMinimo[i].Doador}, Valor: {doacoesValorMinimo[i].Valor:C}");
+        }
+    }
+}
