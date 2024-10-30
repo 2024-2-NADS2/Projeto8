@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoaTech - Plataforma de Doações</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- PAGINA SOBRE NÓS -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"> <i class='bx bx-donate-heart'></i> DoaTech</a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#donate">Como Doar</a></li>
+                    <li><a href="#partners">Parceiros</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <a href="#" class="btn">Doe Agora</a>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="sobre-nos">
+        <div class="title-box">
+            <h1>Parceiros</h1>
+        </div>
+    
+        <div class="sobre-nos">
+        <div class="section-box">
+            <h2>Instituto Ampara</h2>
+            <p>
+                Somos uma organização não-governamental sem fins lucrativos, 100% brasileira, fundada e dirigida por mulheres visionárias. Nascemos em 2010 e em 2013 recebemos do Ministério da Justiça o título de OSCIP (organização da sociedade civil de interesse público), comprovando nossa seriedade e transparência.
+                <p>Nossa missão é transformar a sociedade através de ações ativas e preventivas focadas em advocacy, educação e sensibilização sobre os direitos dos animais.</p>
+            </p>
+        </div>
+        <div class="section-box">
+            <h2>Instituto Lar</h2>
+            <p>
+                O Instituto LAR é uma organização sem fins lucrativos, que nasceu em 2016, na cidade do Rio de Janeiro, para apoiar o processo de reinserção social de pessoas em situação de rua.
+
+            </p>
+            <p>A nossa missão é resgatar a dignidade, a cidadania, e a identidade social dessa população. A sigla LAR significa Levante, Ande e Recomece, indicando que cada cidadão tem o potencial de se reerguer, retomar o controle de sua vida e iniciar uma nova caminhada em uma trajetória digna. Todas as nossas atividades são oferecidas de forma gratuita.</p>
+        </div>
+      
+    
+
+      
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DoaTech. Todos os direitos reservados.</p>
+            <div class="socials">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+  
+    <script src="main.js"></script>
+
+</body>
+</html>
+  
+
+
+    // css
+/*CSS SOBRE NÓS*/
+:root {
+    --primary-color: #c02121;
+    --secondary-color: #ff7e00;
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+  }
+  /* Estilos globais */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--bg-color);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo i {
+    color: var(--primary-color);
+    margin-right: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
+  /*sobre nós*/
+  .sobre-nos-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f00000;
+  }
+  
+  .sobre-nos-content {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sobre-nos-title {
+    font-size: 2.5em;
+    color: #fd0800;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-nos-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+  }
+  /* Estilos para a seção "Sobre Nós" */
+  .sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .section-box {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para os títulos */
+  .section-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para o parágrafo */
+  .section-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .title-box {
+    background-color: #e60000; 
+    border-radius: 15px; 
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: fit-content;
+  }
+  
+  .title-box h1 {
+    color: #fff;
+    font-size: 1.5em; 
+    margin: 0;
+  }
+  
