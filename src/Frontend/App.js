@@ -27,7 +27,7 @@ function App() {
         senha,
       });
       setMensagem('Login bem-sucedido!');
-      // Redireciona o usuário após o login bem-sucedido
+      // leva o usuario ate a pagina home do site
       window.location.href = 'http://127.0.0.1:5500/doar.html#home';
     } catch (error) {
       setMensagem('Usuário ou senha incorretos. Tente novamente.');
@@ -35,10 +35,10 @@ function App() {
   };
 
   const alternarTela = () => {
-    setTela(tela === 'login' ? 'cadastro' : 'login');
-    setUsuario(''); // Limpa o campo de usuário
-    setSenha('');   // Limpa o campo de senha
-    setMensagem(''); // Limpa mensagens anteriores
+    setTela(tela === 'login' ? 'cadastro' : 'login'); // reseta os valores dos inputs, depois do usuario se cadastrar
+    setUsuario(''); 
+    setSenha('');   
+    setMensagem(''); 
   };
 
   return (
