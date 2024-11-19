@@ -15,7 +15,7 @@
 ## Home do projeto
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/2024-2-NADS2/Projeto8/refs/heads/main/imagens/modelo.jpg" alt="Home- DoaTech" border="0">
+<img src="https://github.com/2024-2-NADS2/Projeto8/blob/main/imagens/imagem_2024-11-18_224803020.png" alt="Home- DoaTech" border="0">
 </p>
 
 
@@ -48,10 +48,13 @@ Há também 3 pastas que seguem da seguinte forma:
 <b>imagens</b>: Imagens do sistema
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação
-<b>HTML:</b>
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+## 🖥️ Requisitos do sistema 
+- ``HTML``
+- ``CSS``
+- ``JavaScript``
+- ``React``
+- ``Node.js``
+- ``MySQL``
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -81,6 +84,22 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Realização de pesquisas sobre as ONG's que iremos trabalhar em parceria.
 * 0.0.1 - 05/08/2024
     * Debate sobre tema do grupo e foco do mesmo.
+* 0.9.9 - 10/10/2024
+   * CONCLUÍDO: Parceria com a FECAP SOCIAL (Rodrigo)
+* 0.10.10 - 19/10/2024
+   * CONCLUÍDO: Criar o Banco de Dados (Matheus)
+* 0.11.11 - 23/10/2024
+   * CONCLUÍDO: Incluir um sistema de autenticação (Login e Senha) (Matheus)
+* 0.12.12 - 25/10/2024
+   * CONCLUÍDO: Diagrama de Classe (Rodrigo)
+* 0.13.13 - 27/10/2024
+   * CONCLUÍDO: Fazer as Telas restantes em React para Entrega 3 ( Ana )
+* 0.14.14 - 06/11/2024
+   * CONCLUÍDO: Terminar o site em React para Entrega 4 (Vinicius)
+* 0.15.15 - 18/11/2024
+
+
+
 
 ## 📋 Licença/License
 
