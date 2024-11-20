@@ -1,0 +1,93 @@
+/* estilos principais do corpo*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(7, 7, 7, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 50px;
+  height: auto;
+  max-width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+  max-height: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* campos de entrada do usuario e senha */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="password"] {
+  font-family: Arial, sans-serif;
+}
+
+/* estilo dos botões */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #329fff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #277ac4;
+  transform: scale(1.05);
+  transition: transform 300ms ease;
+}
+
+/* mensagem de feedback como por exemplo "erro ao cadastrar" */
+p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* botão para alternar entre login e cadastro */
+button + button {
+  background-color: #f4f4f9;
+  color: #277ac4;
+  border: 1px solid #277ac4;
+  margin-top: 10px;
+
+}
+
+button + button:hover {
+  background-color: #e7f9e7;
+  transition: 2ms;
+}
