@@ -43,6 +43,14 @@ function App() {
 
   return (
     <div className="App">
+      <div className="logo-container">
+        <img 
+          src="/aqui-é-o-caminho-da-logo/exemplo.png" 
+          alt="Logo do Projeto" 
+          className="logo"
+        />
+      </div>
+
       <h1>{tela === 'login' ? 'Login' : 'Cadastro'}</h1>
       <div>
         <input
